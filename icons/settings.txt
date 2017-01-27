@@ -1,0 +1,33 @@
+# change settings
+
+- cd /usr/share/applications
+    - emacs23.desktop
+        (-) Icon=/usr/share/icons/hicolor/scalable/apps/emacs23.svg
+        (+) Icon=emacs23
+    - goldendict.desktop
+        (-) Icon=/usr/share/pixmaps/goldendict.png
+        (+) Icon=goldendict
+- cd /usr/share/icons/mozc
+    - mv ime_product_icon_opensource-32.png ime_product_icon_opensource-32.org.png
+    - copy $(git_home)/Lubuntu/icons/ime_product_icon_opensource-32.png /usr/share/icons/mozc/.
+- cd ${HOME}/.local/share/applications
+    - wfcmgr.desktop
+        (-) Icon=/opt/Citrix/ICAClient/icons/manager.png
+        (+) Icon=wfcmgr
+
+# added icons from nouveGnomeGray
+
+- apps/*/lxterminal.png : copy apps/*/utilities-terminal.png
+- apps/*/galculator.png : copy apps/*/accessories-calculator.png
+- apps/*/goldendict.png : copy apps/*/accessories-dictionary.png
+- apps/*/gpicview.png   : copy apps/*/eog.png
+- apps/*/emacs23.png    : create originally
+- apps/*/mendeleydesktop.png : create originally
+- apps/*/image-viewer.png : copy apps/*/eog.png
+- apps/*/freeplane.png  : create originally
+- apps/*/rlogo_icon.png : create originally
+- apps/*/keepassx.png   : create originally
+- apps/*/synapse.png    : create originally
+- apps/*/wfcmgr.png     : create originally
+- apps/*/hb-icon.png    : create originally
+

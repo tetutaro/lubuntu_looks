@@ -1,0 +1,117 @@
+# see http://openbox.org/wiki/Help:Themes
+# Window Geometry
+border.width: 1
+padding.width:  3
+padding.height: 3
+window.client.padding.width:  1
+window.client.padding.height: 0
+window.handle.width: 5
+window.handle.border.width: 10
+# Window Label
+window.label.text.justify: center
+window.active.label.text.color: #dfdbd2
+window.active.label.text.font:  shadow=y:shadowtint=50:shadowoffset=1
+window.inactive.label.text.color: #b6b2ab
+window.inactive.label.text.font:  shadow=n
+# Window Border
+window.*.border.color: #32312d
+window.*.client.color: #3c3b37
+window.active.handle.bg: Gradient Vertical Flat
+window.inactive.handle.bg: Solid Flat
+window.*.handle.bg.color: #3c3b37
+window.*.handle.bg.highlight: 128
+window.*.handle.bg.shadow:    64
+window.*.grip.bg: Solid Flat
+window.*.grip.bg.color: #3c3b37
+window.*.grip.bg.highlight: 128
+window.*.grip.bg.shadow:    64
+# Active Window Title
+window.active.title.bg: Gradient SplitVertical Flat
+window.active.title.bg.color:   #3c3b37
+window.active.title.bg.colorTo: #3c3b37
+window.active.label.bg: Parentrelative
+# Active Window Unpressed Button
+window.active.button.unpressed.bg: Solid Flat
+window.active.button.unpressed.bg.color: #4b4944
+window.active.button.unpressed.image.color: #dfdbd2
+window.active.button.toggled.unpressed.bg: Solid Flat
+window.active.button.toggled.unpressed.bg.color: #4b4944
+window.active.button.toggled.unpressed.image.color: #dfdbd2
+# Active Window Disabled Button
+window.active.button.disabled.bg: Gradient SplitVertical Flat
+window.active.button.disabled.bg.color:   #3c3b37
+window.active.button.disabled.bg.colorTo: #3c3b37
+window.active.button.disabled.image.color: #dfdbd2
+# Inactive Window Title
+window.inactive.title.bg: Solid Flat
+window.inactive.title.bg.color: #3c3b37
+window.inactive.label.bg: Parentrelative
+# Inactive Window Unpressed Button
+window.inactive.button.unpressed.bg: Solid Flat
+window.inactive.button.unpressed.bg.color: #3c3b37
+window.inactive.button.unpressed.image.color: #b6b2ab
+window.inactive.button.toggled.unpressed.bg: Solid Flat
+window.inactive.button.toggled.unpressed.bg.color: #3c3b37
+window.inactive.button.toggled.unpressed.image.color: #b6b2ab
+# Active Window Disabled Button
+window.inactive.button.disabled.bg: Solid Flat
+window.inactive.button.disabled.bg.color: #3c3b37
+window.inactive.button.disabled.image.color: #b6b2ab
+# Window Hover Button
+window.*.button.hover.bg: Solid Raised
+window.*.button.hover.bg.color: #4677f0
+window.*.button.hover.image.color: #dfdbd2
+window.*.button.hover.bg.highlight: 128
+window.*.button.hover.bg.shadow:    64
+window.*.button.toggled.hover.bg: Raised
+window.*.button.toggled.hover.bg.color: #4677f0
+window.*.button.toggled.hover.image.color: #dfdbd2
+window.*.button.toggled.hover.bg.highlight: 128
+window.*.button.toggled.hover.bg.shadow:    64
+# Window Pressed Button
+window.*.button.pressed.bg: Solid Sunken
+window.*.button.pressed.bg.color: #4677f0
+window.*.button.pressed.image.color: #dfdbd2
+window.*.button.pressed.bg.highlight: 128
+window.*.button.pressed.bg.shadow:    64
+window.*.button.toggled.pressed.bg: Solid Sunken
+window.*.button.toggled.pressed.bg.color: #4677f0
+window.*.button.toggled.pressed.image.color: #dfdbd2
+window.*.button.toggled.pressed.bg.highlight: 128
+window.*.button.toggled.pressed.bg.shadow:    64
+# Menu Generic
+menu.border.width: 1
+menu.border.color: #3c3b37
+menu.overlap.x: 1
+menu.overlap.y: 0
+menu.text.justify: left
+# Menu Title
+menu.title.text.font:  shadow=y:shadowtint=50:shadowoffset=1
+menu.title.text.color: #dfdbd2
+menu.title.bg: Gradient SplitVertical Flat
+menu.title.bg.color:   #3c3b37
+menu.title.bg.colorTo: #3c3b37
+menu.title.bg.highlight: 128
+menu.title.bg.shadow:    64
+# Menu Items
+menu.items.text.font:  shadow=y:shadowtint=50:shadowoffset=1
+menu.items.bg: Solid Flat
+menu.items.bg.color: #3c3b37
+menu.items.text.color: #dfdbd2
+menu.items.active.text.color: #dfdbd2
+menu.items.disabled.text.color: #808080
+menu.items.active.bg: Solid Flat
+menu.items.active.bg.color: #4677f0
+# Menu Separator
+menu.separator.color: #32312d
+menu.separator.width: 1
+menu.separator.padding.width:  10
+menu.separator.padding.height: 3
+# OSD (On Screen Display)
+osd.label.text.font:  shadow=n
+osd.label.text.color: #dfdbd2
+osd.border.width: 1
+osd.border.color: #32312d
+osd.bg: Solid Flat
+osd.bg.color: #3c3b37
+osd.label.bg: Parentrelative

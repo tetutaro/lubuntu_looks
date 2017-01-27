@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=LubuntuAmbiance
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=LubuntuAmbiance
+MetacityTheme=LubuntuAmbiance
+IconTheme=Lubuntu
+CursorTheme=DMZ-White
+ButtonLayout=minimize,maximize,close:
